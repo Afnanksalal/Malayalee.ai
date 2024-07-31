@@ -32,8 +32,8 @@ Malayalee.ai is your friendly, AI-powered guide to the Malayalam language and cu
    ```
 
 3. **Set Up:**
-   ```bash
-   pip install -r requirements.txt
+     ```bash
+   pip install flask transformers langdetect
    ```
    Make sure to install any additional dependencies based on error messages.
 
