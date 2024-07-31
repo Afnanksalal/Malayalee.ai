@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Malayalee.ai - Your kerala buddy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Malayalee.ai, Your kerala buddy!</h1>
+        <form method="post">
+            <div class="input-group">
+                <label for="input_text">Enter text (English or Malayalam):</label>
+                <textarea id="input_text" name="input_text" rows="4" 
+                          placeholder="Enter text here...">{{ request.form.get('input_text', '') }}</textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+
+        {% if malayalam_response %}
+        <div class="results">
+            <div class="result-box">
+                <h2>Malayalee.ai:</h2>
+                <p>{{ malayalam_response }}</p>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #222;
+    color: #eee;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.container {
+    background-color: #333;
+    padding: 40px; /* Increased padding */
+    border-radius: 10px;
+    text-align: center; 
+    width: 50%; /* Adjusted width */
+    max-width: 600px; /* Maximum container width */
+}
+
+h1 {
+    color: #6495ED;
+    margin-bottom: 30px; /* Increased margin */
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left; /* Align label to the left */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ADD8E6;
+}
+
+textarea {
+    width: calc(100% - 22px);  /* Adjusted width for padding and border */
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #444;
+    color: #eee;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6495ED; 
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.results {
+    margin-top: 30px;
+}
+
+.result-box {
+    background-color: #282828;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    text-align: left; /* Align text to the left */
+}
+
+.result-box h2 {
+    color: #6495ED;
+    margin-bottom: 10px;
+}
+
+.result-box p {
+    color: #ccc;
+    line-height: 1.6;
+}
