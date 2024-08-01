@@ -19,6 +19,8 @@ Malayalee.ai is your friendly, AI-powered guide to the Malayalam language and cu
 4. **Back to Malayalam:** The AI's response is translated back into natural-sounding Malayalam.
 5. **You Hear (optional):** If you chose voice input, Malayalee.ai speaks the Malayalam response out loud! 
 
+![Image Placeholder](workflow.png)
+
 ### 🚀 Getting Started 
 
 1. **Prerequisites:**
