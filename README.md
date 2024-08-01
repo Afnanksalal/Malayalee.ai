@@ -14,10 +14,10 @@ Malayalee.ai is your friendly, AI-powered guide to the Malayalam language and cu
 ### ⚙️ How It Works
 
 1. **You Input:** Type a message or speak to Malayalee.ai in Malayalam.
-2. **Translation (if needed):**  Your input is intelligently translated into English.
+2. **Translation:**  Your input is intelligently translated into English.
 3. **AI Magic:** A powerful text generation model processes your English text and crafts a suitable response.
 4. **Back to Malayalam:** The AI's response is translated back into natural-sounding Malayalam.
-5. **You Hear (optional):** If you chose voice input, Malayalee.ai speaks the Malayalam response out loud! 
+5. **You Hear:** Malayalee.ai speaks the Malayalam response out loud! 
 
 ![Image Placeholder](workflow.png)
 
